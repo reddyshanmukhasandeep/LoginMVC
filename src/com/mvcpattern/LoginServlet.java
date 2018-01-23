@@ -1,6 +1,8 @@
 package com.mvcpattern;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collections;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -36,6 +38,7 @@ public class LoginServlet extends HttpServlet {
 			response.sendRedirect("login.jsp");
 			return;
 		}
+		Collections<Integer> cl = new ArrayList();
 	}
 
 }
